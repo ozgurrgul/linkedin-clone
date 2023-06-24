@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F3F2EE  !important;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+#index-grid {
+  grid-template-areas: 'sidebar main aside';
+  grid-template-columns: minmax(0,225px) minmax(0, auto) minmax(0,300px);
+  margin: 0 auto;
+  justify-content: center;
+  width: 1128px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #index-grid {
+    grid-template-columns: minmax(0,225px) minmax(0, 387px) minmax(0,300px);
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 973px) {
+  #index-grid {
+    grid-template-areas: 'sidebar main';
+    grid-template-columns: minmax(0,225px)  minmax(0, auto) 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #index-grid {
+    grid-template-areas:
+    "sidebar"
+    "main";
+    grid-template-columns: minmax(0, 576px);
+    padding: 0 !important;
+    margin-top: 12px;
+  }
+  aside {
+    display: none;
+  }
+}
