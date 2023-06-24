@@ -116,7 +116,9 @@ const ChatsListItem: React.FC<{
           >
             <Checkbox
               checked={Boolean(isChecked)}
-              onCheckedChange={(e) => onCheckedChange(Boolean(e))}
+              onCheckedChange={(e: boolean | "indeterminate") =>
+                onCheckedChange(Boolean(e))
+              }
             />
           </div>
         ) : (
