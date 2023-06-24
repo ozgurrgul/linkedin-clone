@@ -24,12 +24,16 @@ const MyProfileHeader = () => {
 
 const MyProfileProfession = () => {
   return (
-    <div className="flex justify-center items-center flex-col mt-4 pb-4 border-b border-slate-200">
+    <a
+      className="flex justify-center items-center flex-col mt-4 pb-4 border-b border-slate-200"
+      href="https://www.linkedin.com/in/ozgurgul35/"
+      target="_blank"
+    >
       <div className="text-md font-medium hover:underline cursor-pointer">
         Ozgur GUL
       </div>
       <div className="text-xs text-zinc-500 mt-1">Senior Software Engineer</div>
-    </div>
+    </a>
   );
 };
 
