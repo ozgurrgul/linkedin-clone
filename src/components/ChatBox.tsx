@@ -83,7 +83,7 @@ const ChatsListItem: React.FC<{
   const [isCheckboxActivated, setCheckboxActivated] = useState(false);
 
   const onHoverLeaveFromRow = () => {
-    if (isCheckboxActivated) {
+    if (isCheckboxActivated || _showCheckbox) {
       return;
     }
     setShowCheckbox(false);
