@@ -1,6 +1,6 @@
 import { BookmarkIcon, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
-import { Card } from "shadcn-primitives";
+import { Card } from "./primitives/Card";
 
 const MyProfileHeader = () => {
   return (

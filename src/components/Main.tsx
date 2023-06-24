@@ -1,12 +1,12 @@
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  Separator,
-} from "shadcn-primitives";
 import { FeedItem } from "./FeedItem";
 import { WriteNewPostCard } from "./WriteNewPostCard";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "./primitives/DropdownMenu";
+import { Separator } from "./primitives/Separator";
 
 const SortByDivider = () => {
   return (

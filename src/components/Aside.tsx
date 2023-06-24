@@ -4,20 +4,21 @@ import {
   InfoIcon,
   PlusIcon,
 } from "lucide-react";
-import {
-  Card,
-  CardHeader,
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "shadcn-primitives";
 import { cn } from "src/utils/cn";
 import { UserAvatar } from "./UserAvatar";
+import { Card, CardHeader } from "./primitives/Card";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "./primitives/DropdownMenu";
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "./primitives/Tooltip";
 
 const UserRecommendation: React.FC<{
   name: string;

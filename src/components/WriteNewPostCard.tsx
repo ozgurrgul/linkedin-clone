@@ -1,20 +1,19 @@
-import {
-  Button,
-  Card,
-  Dialog,
-  DialogContent,
-  Input,
-  Separator,
-  Textarea,
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "shadcn-primitives";
 import { MyAvatar } from "./UserAvatar";
 import { BaggageClaim, Calendar, File, Image, Video } from "lucide-react";
 import { useState } from "react";
 import { cn } from "src/utils/cn";
+import { Button } from "./primitives/Button";
+import { Card } from "./primitives/Card";
+import { Dialog, DialogContent } from "./primitives/Dialog";
+import { Separator } from "./primitives/Separator";
+import { Textarea } from "./primitives/TextArea";
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "./primitives/Tooltip";
+import { Input } from "./primitives/Input";
 
 const WriteNewPostCardButtonContainer: React.FC<{ children: any }> = ({
   children,

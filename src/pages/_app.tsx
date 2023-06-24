@@ -1,4 +1,3 @@
-import "shadcn-primitives/dist/style.css";
 import "src/styles/globals.css";
 
 import type { AppProps } from "next/app";

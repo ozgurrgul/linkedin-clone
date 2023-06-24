@@ -7,15 +7,15 @@ import {
   PencilIcon,
   Settings2,
 } from "lucide-react";
+import { cn } from "src/utils/cn";
+import { Checkbox } from "./primitives/Checkbox";
 import {
-  Checkbox,
   DropdownMenu,
+  DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuTrigger,
-  Input,
-} from "shadcn-primitives";
-import { cn } from "src/utils/cn";
+} from "./primitives/DropdownMenu";
+import { Input } from "./primitives/Input";
 
 type ChatTab = "focused" | "other";
 

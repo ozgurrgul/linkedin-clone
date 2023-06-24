@@ -1,4 +1,3 @@
-import { Card } from "shadcn-primitives";
 import { UserAvatar } from "./UserAvatar";
 import {
   ArrowLeftRight,
@@ -7,6 +6,7 @@ import {
   SendIcon,
   ThumbsUpIcon,
 } from "lucide-react";
+import { Card } from "./primitives/Card";
 
 type FeedItemProps = {
   type: "post";

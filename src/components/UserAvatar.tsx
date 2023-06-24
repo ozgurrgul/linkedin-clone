@@ -1,4 +1,4 @@
-import { Avatar, AvatarImage, AvatarFallback } from "shadcn-primitives";
+import { Avatar, AvatarImage, AvatarFallback } from "./primitives/Avatar";
 
 export const UserAvatar: React.FC<{ imageUrl: string; className?: string }> = ({
   imageUrl,

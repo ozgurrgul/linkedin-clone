@@ -1,16 +1,8 @@
 import { SearchIcon } from "lucide-react";
 import { useRef, useState } from "react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  Input,
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "shadcn-primitives";
 import { cn } from "src/utils/cn";
+import { Input } from "./primitives/Input";
+import { Popover, PopoverContent, PopoverTrigger } from "./primitives/Popover";
 
 const SearchSuggestion: React.FC<{ text: string }> = ({ text }) => {
   return (

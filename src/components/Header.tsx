@@ -9,9 +9,9 @@ import {
   NetworkIcon,
   UserCircle2,
 } from "lucide-react";
-import { Popover, PopoverContent, PopoverTrigger } from "shadcn-primitives";
 import { cn } from "src/utils/cn";
 import { HeaderSearchDropdown } from "./HeaderSearchDropdown";
+import { Popover, PopoverTrigger, PopoverContent } from "./primitives/Popover";
 
 const MenuItemLayout: React.FC<{ icon: any; text?: any; active?: boolean }> = ({
   icon,
