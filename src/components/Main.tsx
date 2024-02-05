@@ -47,14 +47,14 @@ export const Main = () => {
           title:
             "Accelerating scientific discovery with Azure Quantum - The Official Microsoft Blog",
           thumbnail:
-            "https://media.licdn.com/dms/image/sync/D4E27AQEB37UEQdk_Zw/articleshare-shrink_800/0/1687600135384?e=1688212800&v=beta&t=N1G6JujaKefHRQAMKSIrmXntdMeWhm1AWYw8k41chFA",
+            "https://images.pexels.com/photos/7654425/pexels-photo-7654425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           href: "https://blogs.microsoft.com/blog/2023/06/21/accelerating-scientific-discovery-with-azure-quantum/",
         }}
         author={{
           name: "Satya Nadella",
           subtext: "Chairman and CEO at Microsoft",
           imageUrl:
-            "https://media.licdn.com/dms/image/C5603AQHHUuOSlRVA1w/profile-displayphoto-shrink_100_100/0/1579726624860?e=1692835200&v=beta&t=m5EDtXZALcLc9SM6BNRsfbid9cEUxfN8B_LYhdwFwGo",
+            "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           connectionDegree: "1st",
         }}
         stats={{
@@ -70,14 +70,14 @@ export const Main = () => {
           title:
             "My annual letter: A historic intersection of opportunity and responsibility",
           thumbnail:
-            "https://media.licdn.com/dms/image/D5612AQFgZ0SQWJiFmA/article-cover_image-shrink_423_752/0/1666889019946?e=1692835200&v=beta&t=mRb40OnsC3Xq-FeTEGJiTTWyhdJ_28YUa_MkVienfRo",
+            "https://images.pexels.com/photos/5912321/pexels-photo-5912321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           href: "https://www.linkedin.com/pulse/my-annual-letter-historic-intersection-opportunity-satya-nadella?trackingId=dxsWwqZOReOJKem4oxhXlg%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_content%3BpL6f%2BL5xQK%2BhHU6uCrNBdg%3D%3D",
         }}
         author={{
           name: "Satya Nadella",
           subtext: "Chairman and CEO at Microsoft",
           imageUrl:
-            "https://media.licdn.com/dms/image/C5603AQHHUuOSlRVA1w/profile-displayphoto-shrink_100_100/0/1579726624860?e=1692835200&v=beta&t=m5EDtXZALcLc9SM6BNRsfbid9cEUxfN8B_LYhdwFwGo",
+            "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           connectionDegree: "1st",
         }}
         stats={{
