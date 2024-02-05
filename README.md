@@ -8,13 +8,13 @@ This project is a [Linkedin](https://www.linkedin.com/feed/) feed page clone mad
 
 Yes, clone the repo and then install deps:
 
-``` bash
+```bash
 yarn
 ```
 
-Then, run the project:
+Then, run the project via following command:
 
-``` bash
+```bash
 yarn dev
 ```
 
