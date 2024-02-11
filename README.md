@@ -21,3 +21,5 @@ yarn dev
 ### Will you develop this in future?
 
 If I have time, and if people show interest, I can convert this to a more advanced Linkedin clone with Auth / Post / Commenting modules etc.
+
+.
